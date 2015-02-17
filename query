@@ -1,0 +1,6 @@
+GET services
+Columns: host_name description state
+Filter: acknowledged = 0
+Filter: state > 0
+Filter: host_hard_state = 0
+
